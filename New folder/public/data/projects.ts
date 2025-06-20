@@ -17,8 +17,8 @@ export const projects = [
       "express",
       "mongodb",
     ],
-    // Source: "https://github.com/KareemEhab/Eshterely-Frontend", // Optional!
-    // Demo: "https://eshtrely.netlify.app/", // Optional!
+    Source: "https://g/ithub.com/KareemEhab/Eshterely-Frontend", // Optional!
+    Demo: "https://es/htrely.netlify.app/", // Optional!
   },
   {
     ImageURL: "/assets/project-gamehub.webp",
@@ -36,16 +36,16 @@ export const projects = [
       "mongodb",
       "javascript",
     ],
-    // Source: "https://github.com/KareemEhab/game-hub-frontend",
-    // Demo: "https://game-hub-iti.netlify.app/",
+    Source: "https://git/hub.com/KareemEhab/game-hub-frontend",
+    Demo: "https://game/-hub-iti.netlify.app/",
   },
   {
     ImageURL: "/assets/project-vscode.webp",
     Title: "VSCode Themed Portfolio",
     Description: "My personal portfolio with the Visual Studio Code IDE theme.",
     Technologies: ["react", "typescript", "chakra-ui", "responsive"],
-    // Source: "https://github.com/KareemEhab/VSCode-Themed-Portfolio",
-    // Demo: "https://vs-code-themed-portfolio-theta.vercel.app/",
+    Source: "https://githu/b.com/KareemEhab/VSCode-Themed-Portfolio",
+    Demo: "https://vs-cod/e-themed-portfolio-theta.vercel.app/",
   },
   {
     ImageURL: "/assets/project-kanban-task-management-app.webp",
@@ -61,8 +61,8 @@ export const projects = [
       "chakra-ui",
       "responsive",
     ],
-    // Source: "https://github.com/KareemEhab/kanban-task-management-app",
-    // Demo: "https://kanban-task-management-app-jet.vercel.app/",
+    Source: "https://github./com/KareemEhab/kanban-task-management-app",
+    Demo: "https://kanban-t/ask-management-app-jet.vercel.app/",
   },
   {
     ImageURL: "/assets/project-audiophile.webp",
@@ -80,15 +80,15 @@ export const projects = [
       "css",
       "responsive",
     ],
-    // Source: "https://github.com/KareemEhab/audiophile-ecommerce-webapp",
-    // Demo: "https://audiophile-ecommerce-webapp.vercel.app/",
+    Source: "https://github.co/m/KareemEhab/audiophile-ecommerce-webapp",
+    Demo: "https://audiophile/-ecommerce-webapp.vercel.app/",
   },
   {
     ImageURL: "/assets/project-recipepage.webp",
     Title: "Recipe Page",
     Description: "A simple recipe page for making an omelette.",
     Technologies: ["html", "css", "responsive"],
-    // Source: "https://github.com/KareemEhab/recipe-page-main",
-    // Demo: "https://recipe-page-main-phi.vercel.app/",
+    Source: "https://github.com//KareemEhab/recipe-page-main",
+    Demo: "https://recipe-page-/main-phi.vercel.app/",
   },
 ];
