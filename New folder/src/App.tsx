@@ -8,6 +8,7 @@ import TabsBar from "./components/TabsBar";
 import { useState } from "react";
 import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Theme from "./pages/Theme";
 
@@ -53,15 +54,11 @@ function App() {
               path="/about"
               element={<About setPage={setSelectedPage} />}
             />
-          
             <Route
-  path="/projects"
-  element={
-    <div style={{ textAlign: 'center', fontSize: '48px', alignItems: 'center', justifyContent: 'center', display: 'flex', height: '100vh' }}>
-      Coming Soon
-    </div>
-  }
-/>
+              path="/projects"
+              element={<Projects setPage={setSelectedPage} />}
+            />
+      
 
 
             <Route
