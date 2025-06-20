@@ -17,8 +17,8 @@ export const projects = [
       "express",
       "mongodb",
     ],
-    Source: "https://g/ithub.com/KareemEhab/Eshterely-Frontend", // Optional!
-    Demo: "https://es/htrely.netlify.app/", // Optional!
+    Source: "hellohello//Eshterely-Frontend", // Optional!
+    Demo: "hello/htrely.netlify.app/", // Optional!
   },
   {
     ImageURL: "/assets/project-gamehub.webp",
@@ -36,16 +36,16 @@ export const projects = [
       "mongodb",
       "javascript",
     ],
-    Source: "https://git/hub.com/KareemEhab/game-hub-frontend",
-    Demo: "https://game/-hub-iti.netlify.app/",
+    Source: "hellohello//game-hub-frontend",
+    Demo: "hello/-hub-iti.netlify.app/",
   },
   {
-    ImageURL: "/assets/project-vscode.webp",
+    ImageURL: "/assets/Capture.PNG",
     Title: "VSCode Themed Portfolio",
     Description: "My personal portfolio with the Visual Studio Code IDE theme.",
     Technologies: ["react", "typescript", "chakra-ui", "responsive"],
-    Source: "https://githu/b.com/KareemEhab/VSCode-Themed-Portfolio",
-    Demo: "https://vs-cod/e-themed-portfolio-theta.vercel.app/",
+    Source: "hellohello//VSCode-Themed-Portfolio",
+    Demo: "hello-cod/e-themed-portfolio-theta.vercel.app/",
   },
   {
     ImageURL: "/assets/project-kanban-task-management-app.webp",
@@ -61,8 +61,8 @@ export const projects = [
       "chakra-ui",
       "responsive",
     ],
-    Source: "https://github./com/KareemEhab/kanban-task-management-app",
-    Demo: "https://kanban-t/ask-management-app-jet.vercel.app/",
+    Source: "hellohello//kanban-task-management-app",
+    Demo: "hello-t/ask-management-app-jet.vercel.app/",
   },
   {
     ImageURL: "/assets/project-audiophile.webp",
@@ -80,15 +80,15 @@ export const projects = [
       "css",
       "responsive",
     ],
-    Source: "https://github.co/m/KareemEhab/audiophile-ecommerce-webapp",
-    Demo: "https://audiophile/-ecommerce-webapp.vercel.app/",
+    Source: "hellohello/audiophile-ecommerce-webapp",
+    Demo: "hello/-ecommerce-webapp.vercel.app/",
   },
   {
     ImageURL: "/assets/project-recipepage.webp",
     Title: "Recipe Page",
     Description: "A simple recipe page for making an omelette.",
     Technologies: ["html", "css", "responsive"],
-    Source: "https://github.com//KareemEhab/recipe-page-main",
-    Demo: "https://recipe-page-/main-phi.vercel.app/",
+    Source: "hellohello/recipe-page-main",
+    Demo: "hello-page-main-phi.vercel.app/",
   },
 ];
