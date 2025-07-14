@@ -30,19 +30,18 @@ function extractDriveFileId(url: string): string | null {
 const About = ({ setPage }: Props) => {
   const [loading, setLoading] = useState(false);
 
-  const downloadCV = () => {
-    setLoading(true);
-    const fileId = extractDriveFileId(aboutMe.cvDriveLink);
-    if (!fileId) return;
-    const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    const link = document.createElement("a");
-    link.href = url;
-    link.setAttribute("download", "cv.pdf");
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setLoading(false);
-  };
+  // const downloadCV = () => {
+  //   setLoading(true);
+  //   if (!fileId) return;
+  //   const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
+  //   const link = document.createElement("a");
+  //   link.href = url;
+  //   link.setAttribute("download", "cv.pdf");
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  //   setLoading(false);
+  // };
 
   useEffect(() => {
     setPage("about.html");
@@ -82,7 +81,6 @@ const About = ({ setPage }: Props) => {
         marginTop={6}
         width="200px"
         background="#0BCEAF"
-        onClick={downloadCV}
         _hover={{ background: "#09a88d" }}
         _active={{ transform: "scale(0.96)", background: "#079f84" }}
         transition="all 0.2s ease"
