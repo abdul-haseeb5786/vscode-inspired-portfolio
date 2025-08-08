@@ -1,4 +1,4 @@
-# Kareem Hamouda's Portfolio with the Visual Studio Code Theme
+# Abdul Haseeb Portfolio with the Visual Studio Code Theme
 
 ## Table of Contents
 
