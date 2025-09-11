@@ -78,18 +78,19 @@ const About = ({ setPage }: Props) => {
       </Box>
 
       <Button
-        marginTop={6}
-        width="200px"
-        background="#0BCEAF"
-        _hover={{ background: "#09a88d" }}
-        _active={{ transform: "scale(0.96)", background: "#079f84" }}
-        transition="all 0.2s ease"
-        isLoading={loading}
-        loadingText="Downloading..."
-      >
-        <FaDownload />
-        <Text marginLeft={2}>Download CV</Text>
-      </Button>
+  marginTop={6}
+  width="200px"
+  background="#0BCEAF"
+  _hover={{ background: "#09a88d" }}
+  _active={{ transform: "scale(0.96)", background: "#079f84" }}
+  transition="all 0.2s ease"
+  isLoading={loading}
+  loadingText="Downloading..."
+  disabled // <-- This disables the button
+>
+  <FaDownload />
+  <Text marginLeft={2}>Download CV</Text>
+</Button>
 
       <Box width="100%">
         <Heading
