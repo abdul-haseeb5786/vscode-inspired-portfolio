@@ -77,7 +77,8 @@ const About = ({ setPage }: Props) => {
         ))}
       </Box>
 
-      <Button
+   /*
+<Button
   marginTop={6}
   width="200px"
   background="#0BCEAF"
@@ -86,11 +87,11 @@ const About = ({ setPage }: Props) => {
   transition="all 0.2s ease"
   isLoading={loading}
   loadingText="Downloading..."
-  disabled // <-- This disables the button
 >
   <FaDownload />
   <Text marginLeft={2}>Download CV</Text>
 </Button>
+*/
 
       <Box width="100%">
         <Heading
