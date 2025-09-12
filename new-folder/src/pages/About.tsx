@@ -2,15 +2,15 @@ import {
   VStack,
   Text,
   HStack,
-  Button,
+  // Button,
   Grid,
   GridItem,
   Box,
   Heading,
   keyframes,
 } from "@chakra-ui/react";
-import { FaDownload } from "react-icons/fa6";
-import { useEffect, useState } from "react";
+// import { FaDownload } from "react-icons/fa6";
+import { useEffect } from "react";
 import { aboutMe, technicalSkills } from "../../public/data/about";
 
 interface Props {
@@ -22,13 +22,13 @@ const fadeIn = keyframes`
   to { opacity: 1; transform: translateY(0); }
 `;
 
-function extractDriveFileId(url: string): string | null {
-  const match = url.match(/\/d\/(.*?)(\/|$)/);
-  return match ? match[1] : null;
-}
+// function extractDriveFileId(url: string): string | null {
+//   const match = url.match(/\/d\/(.*?)(\/|$)/);
+//   return match ? match[1] : null;
+// }
 
 const About = ({ setPage }: Props) => {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   // const downloadCV = () => {
   //   setLoading(true);
@@ -77,8 +77,8 @@ const About = ({ setPage }: Props) => {
         ))}
       </Box>
 
-   /*
-<Button
+   
+{/* <Button
   marginTop={6}
   width="200px"
   background="#0BCEAF"
@@ -90,8 +90,8 @@ const About = ({ setPage }: Props) => {
 >
   <FaDownload />
   <Text marginLeft={2}>Download CV</Text>
-</Button>
-*/
+</Button> */}
+
 
       <Box width="100%">
         <Heading
