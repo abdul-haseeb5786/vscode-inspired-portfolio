@@ -89,7 +89,7 @@ const Home = ({ setPage }: Props) => {
             color={accentColor}
             mb={{ base: 6, md: 10 }}
           >
-            Full Stack Developer | MERN +
+            Full Stack Developer | MERN Stack | AI Enthusiast
           </Text>
         </Box>
 
